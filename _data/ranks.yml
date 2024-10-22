@@ -1,0 +1,22 @@
+---
+- name: a
+  rank: A
+  color: "#ffd300"
+- name: b
+  rank: B
+  color: "#deff0a"
+- name: C
+  rank: C
+  color: "#0aefff"
+- name: D
+  rank: D
+  color: "#147df5"
+- name: E
+  rank: E
+  color: "#0aff99"
+- name: F
+  rank: F
+  color: "#580aff"
+- name: G
+  rank: G
+  color: "#be0aff"
