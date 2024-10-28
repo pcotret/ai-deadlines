@@ -66,9 +66,9 @@
                         multiple="multiple"
                         style="display: none"
                       >
-                        {% for type in site.data.ranks %}
-                        <option value="{{type.rank}}" id="{{type.rank}}-checkbox">
-                          {{type.name}} ({{type.rank}})
+                        {% for rank_val in site.data.ranks %}
+                        <option value="{{rank_val.rank}}" id="{{rank_val.rank}}-checkbox">
+                          {{rank_val.name}} ({{rank_val.rank}})
                         </option>
                         {% endfor %}
                       </select>
