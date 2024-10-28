@@ -38,9 +38,9 @@
                         multiple="multiple"
                         style="display: none"
                       >
-                        {% for type in site.data.types %}
-                        <option value="{{type.sub}}" id="{{type.sub}}-checkbox">
-                          {{type.name}} ({{type.sub}})
+                        {% for type in site.data.ranks %}
+                        <option value="{{type.rank}}" id="{{type.rank}}-checkbox">
+                          {{type.name}} ({{type.rank}})
                         </option>
                         {% endfor %}
                       </select>
